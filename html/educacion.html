@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<! * Archivo: educacion.html             * >
+<! * Author: Jesus Noriega               * >
+<! * Fecha: Septiembre 2018              * >
+<! * Indice: Examen Fundamentos de HTML  * >
+
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no">
+    <meta name="author" content="Jesús Noriega">
+    <meta name="description" content="Examen Fundamentos de HTML"
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <p id="inicio">____________________________________________________________________</p>
+      <svg width="300px" height="200px" >
+        <image width="300px" height="250px" xlink:href="../img/Logo2.svg"></image>
+      </svg>
+
+      <h1>Hoja de Vida</h1>
+      <h2>Jesús Noriega Rojas.</h2>
+      <h3>Ciudad de México.</h3>
+      <h3>25/Junio/1969.</h3>
+    </header>
+
+    <nav>
+      <h3>
+        <a href="../index.html">Inicio|</a>
+        <a href="#inicio">Educación|</a>
+        <a href="experiencia.html">Experiencia|</a>
+      </h3>
+    </nav>
+
+    <section>
+      <p>____________________________________________________________________</p>
+        <h2>Educación</h2>
+        <table border="1"  cellspadding="10" cellspacing="1">
+          <tr>
+            <th><h3>Año</h3></th>
+            <th><h3>Institución</h3></th>
+            <th><h3>Lugar</h3></th>
+            <th><h3>Culmino</h3></th>
+          </tr>
+
+          <tr>
+            <td>1988</td>
+            <td>F.E.S. Aragon</td>
+            <td>Ciudad de México</td>
+            <td>1992</td>
+          </tr>
+
+          <tr>
+            <td>1985</td>
+            <td>C.C.H. Azcapotzalco</td>
+            <td>Ciudad de México</td>
+            <td>1988</td>
+          </tr>
+
+          <tr>
+            <td>1982</td>
+            <td>Escuela Secundaria "Niños Heroes"</td>
+            <td>Estado de México</td>
+            <td>1985</td>
+          </tr>
+
+        </table>
+      </p>
+
+      <form autocomplete="on" name="formulario">
+        <fieldset>
+
+          <h3>Agregar Estudios</h3>
+          <label for="anio">Año</label>
+          <input type="number" name="anio" min="2010" placeholder="E.j: 2018" autofocus>
+          <br>
+
+          <label for="institucion">Institución</label>
+          <input type="text" name="institucion" placeholder="F.E.S. Aragon" required>
+          <br>
+
+          <label for="lugar">Lugar</label>
+          <textarea name="lugar" rows="2" cols="40" required> </textarea>
+          <br>
+
+          <input type="submit" name="enviar" value="Enviar">
+
+        </fieldset>
+
+      </form>
+      <p>___________________________________________________________________</p>
+    </section>
+
+    <footer>
+      <p>Tel: 521-55-55111327 | <a href="mailto:jesunori.1901@gmail.com?subject=Contacto">email me</a>|Facebook:#Jesu Noriega</p>
+      Derechos Reservados</footer>
+      <a href="#inicio">Volver al inicio</a>
+  </body>
+</html>
